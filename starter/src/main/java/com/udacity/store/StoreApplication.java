@@ -23,7 +23,6 @@ public class StoreApplication  implements CommandLineRunner {
     public void run(String... args) throws Exception {
         // TODO: Populate the database with products
         productRepository.save(new Product("Glasses", 129.99, "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", "Now you can see!"));
-        //log.info("adddddd");
         productRepository.save(new Product("Headphones", 249.99, "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80","Listen to stuff!" ));
         productRepository.save(new Product("Book",
                 9.99,
